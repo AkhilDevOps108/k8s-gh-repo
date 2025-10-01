@@ -14,11 +14,12 @@ We’ll apply four manifests (ConfigMap, Deployment, Service, HPA) and then veri
 
 ---
 
-## Quick apply (one command)
-We can apply everything with a single command from the repo root:
+##  apply commands
+
 
 ```bash
 kubectl apply -f 00-configmap.yaml
 kubectl apply -f 01-deployment.yaml
 kubectl apply -f 02-service.yaml
 kubectl apply -f 03-hpa.yaml
+
